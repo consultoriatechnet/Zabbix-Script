@@ -1,3 +1,13 @@
+Passo a passo da instalação
+
+apt update && apt upgrade -y
+apt install sudo
+nano zabbix.sh 
+cole o conteudo do zabbix.sh dentro do arquivo criado no linux, ctlr+x para salvar (Obs. Altere as senhas e o nome da DB conforme sua preferencia)
+chamod +x zabbix.sh para dar as permissões
+./zabbix.sh 
+pronto agora é so aguardar a instalação finalizar 
+
 📌 Etapas do script
 1. Configuração de variáveis
 Define IP do servidor (IP_SERVIDOR).
