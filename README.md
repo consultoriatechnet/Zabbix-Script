@@ -1,3 +1,5 @@
+SCRIPT FEITO E TESTADO PARA O DEBIAN 12
+
 Passo a passo da instalação
 
 apt update && apt upgrade -y
